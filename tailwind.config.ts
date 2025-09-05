@@ -61,7 +61,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Jharkhand Tourism custom colors
+				nature: {
+					DEFAULT: 'hsl(var(--nature-green))',
+					light: 'hsl(var(--nature-green-light))'
+				},
+				waterfall: 'hsl(var(--waterfall-blue))',
+				tribal: {
+					orange: 'hsl(var(--tribal-orange))',
+					brown: 'hsl(var(--tribal-brown))'
 				}
+			},
+			backgroundImage: {
+				'sunset-gradient': 'var(--sunset-gradient)',
+				'forest-gradient': 'var(--forest-gradient)',
+				'nature-gradient': 'var(--nature-gradient)'
+			},
+			boxShadow: {
+				'natural': 'var(--shadow-natural)',
+				'warm': 'var(--shadow-warm)',
+				'glow': 'var(--glow-accent)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
